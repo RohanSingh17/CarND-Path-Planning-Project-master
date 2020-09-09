@@ -50,7 +50,7 @@ int ClosestWaypoint(double x, double y, const vector<double> &maps_x,
     double map_y = maps_y[i];
     double dist = distance(x,y,map_x,map_y);
     if (dist < closestLen) {
-      closestLen = dist;next_s
+      closestLen = dist;
       closestWaypoint = i;
     }
   }
